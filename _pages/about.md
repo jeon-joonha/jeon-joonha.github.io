@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: profile_blog_jjeon.jpg
+  image: profile_blog_jjeon.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>CWTS, Leiden University</p>
