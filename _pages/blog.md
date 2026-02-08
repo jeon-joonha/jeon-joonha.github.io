@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: https://tinkering-research.pikapod.net
+permalink: https://tinkering-research.pikapod.net/
 title: blog
 nav: true
 nav_order: 3
