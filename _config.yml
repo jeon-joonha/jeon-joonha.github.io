@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Integriblank # the website title (if blank, full name will be used instead)
+title: # the website title (if blank, full name will be used instead)
 first_name: Joonha
 middle_name: 
 last_name: Jeon
@@ -14,7 +14,7 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: STS, valuation studies, scholarly communication, research integrity, paper mills # add your own keywords or leave empty
+keywords: STS (Science and Technology Studies), valuation studies, scholarly communication, research integrity, paper mills # add your own keywords or leave empty
 lang: en, ko # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤔 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -93,8 +93,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Tinkering Research # blog_name will be displayed in your blog page
+blog_description: PhD journey of research in research integrity
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -219,6 +219,7 @@ plugins:
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
+  - jekyll-redirect-from
   - jekyll-regex-replace
   - jekyll/scholar
   - jekyll-sitemap
