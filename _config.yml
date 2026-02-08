@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: # the website title (if blank, full name will be used instead)
+title: Joonha Jeon # the website title (if blank, full name will be used instead)
 first_name: Joonha
 middle_name: 
 last_name: Jeon
 contact_note: >
-  Email: mailto:j.jeon@cwts.leidenuniv.nl
+  Email: j.jeon@cwts.leidenuniv.nl
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   PhD candidate at CWTS (Center for Science and Technology Studies), Leiden University
 footer_text: >
