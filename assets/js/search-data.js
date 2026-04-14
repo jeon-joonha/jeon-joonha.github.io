@@ -41,7 +41,7 @@ ninja.data = [{
         
           title: 'Trapped in the Iron Cage: The One-Dimensional Researcher <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "&amp;#x201C;12 points, 8, 15 but as a second author, so roughly 10 points. Wow, he published here? Another 10 points. What&amp;#x2019;s this one? Don&amp;#x2019;t know, pass. Oh yeah, people are definitely getting publishing here a lot. 3, 3, 7, ...&amp;quot;2During my undergraduate years",
+        description: "&amp;#x270D;&amp;#xFE0F;I originally wrote this piece back in 2019 for Behind Sciences in Korean, a magazine run by graduate students at the university where I did my Master&amp;apos;s. When I was applying for the PhD in 2025--so 6 years gap there, I had to submit 3 writing",
         section: "Posts",
         handler: () => {
           
@@ -70,7 +70,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/cv_260201.pdf", "_blank");
+          window.open("/assets/pdf/Joonha_Jeon_Narrative_CV_010426.pdf", "_blank");
         },
       },{
         id: 'social-email',
