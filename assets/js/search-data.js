@@ -53,6 +53,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "news-first-contribution-on-leiden-madtrics-reclaiming-the-scholarly-ecosystem",
+          title: 'First contribution on Leiden Madtrics: Reclaiming the scholarly ecosystem',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-02-24-leiden-madtrics-blogpost/";
             },},{id: "news-attending-sts-nl-2026-in-enschede",
           title: 'Attending STS NL 2026 in Enschede',
           description: "",
