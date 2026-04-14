@@ -53,8 +53,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-attending-sts-nl-2026-in-utrecht",
-          title: 'Attending STS NL 2026 in Utrecht',
+            },},{id: "news-attending-sts-nl-2026-in-enschede",
+          title: 'Attending STS NL 2026 in Enschede',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-04-14-sts-nl-2026/";
