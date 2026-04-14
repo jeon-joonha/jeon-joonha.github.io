@@ -30,15 +30,35 @@ ninja.data = [{
           handler: () => {
             window.location.href = "https://tinkering-research.pikapod.net/index.html";
           },
-        },{id: "books-the-godfather",
+        },{id: "nav-news",
+          title: "news",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
+        },{id: "post-trapped-in-the-iron-cage-the-one-dimensional-researcher",
+        
+          title: 'Trapped in the Iron Cage: The One-Dimensional Researcher <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "&amp;#x201C;12 points, 8, 15 but as a second author, so roughly 10 points. Wow, he published here? Another 10 points. What&amp;#x2019;s this one? Don&amp;#x2019;t know, pass. Oh yeah, people are definitely getting publishing here a lot. 3, 3, 7, ...&amp;quot;2During my undergraduate years",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://tinkering-research.pikapod.net/trapped-in-the-iron-cage-the-one-dimensional-researcher/", "_blank");
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-will-be-attending-sts-nl-2026-this-april-from-14th-to-17th-in-utrecht-i-m-excited-to-present-my-work-in-progress-research-titled-research-integrity-at-scale-paper-mills-screening-tools-and-the-reconfiguration-of-publishability-the-abstract-can-be-found-in-the-conference-program-paper-mills-black-market-entities-selling-fraudulent-authorship-and-or-manuscript-content-for-publications-in-academic-journals-are-attracting-growing-attention-as-a-major-threat-to-research-integrity-building-on-earlier-issues-like-ghostwriting-and-predatory-journals-paper-mills-exploit-vulnerabilities-in-academic-publishing-at-scale-shifting-the-focus-of-scientific-misconduct-from-individual-misbehavior-to-systematic-manipulation-this-crisis-has-prompted-coordinated-responses-from-multiple-stakeholder-groups-including-publishers-research-institutions-and-funders-with-interventions-that-are-actively-reshaping-the-field-this-research-specifically-examines-how-research-integrity-tools-designed-and-developed-to-combat-paper-mills-are-reconfiguring-the-concept-of-publishability-as-it-is-situated-and-performed-within-industrial-scholarly-communication-infrastructures-by-automating-and-augmenting-integrity-checks-within-submission-and-editorial-workflows-the-study-draws-on-a-scoping-review-of-empirical-studies-on-paper-mills-focusing-on-their-operational-patterns-and-proposed-countermeasures-complemented-by-a-document-analysis-of-grey-literature-and-industry-materials-that-catalog-their-positioning-and-promotion-of-solutions-preliminary-findings-show-that-paper-mill-detection-and-screening-tools-are-increasingly-relying-on-ai-based-automation-framed-by-vendors-as-scalable-solutions-that-are-also-efficient-saving-time-and-scarce-resources-for-editorial-and-peer-review-efforts-as-paper-mills-are-also-widely-alleged-to-utilize-generative-ai-this-dynamic-fosters-an-ai-arms-race-that-generates-a-new-commercial-market-in-research-integrity-where-both-paper-mills-and-vendors-of-research-integrity-tools-pursue-business-opportunities-through-technological-innovations-and-hence-co-constitute-an-emerging-research-integrity-economy-this-market-making-process-with-the-adoption-of-these-tools-within-integrity-and-quality-assurance-systems-in-academic-publishing-not-only-reconfigures-how-publishability-is-operationalized-but-also-broader-conceptions-of-research-integrity-and-quality",
-          title: 'I will be attending STS NL 2026 this April (from 14th to 17th)...',
+            },},{id: "news-attending-sts-nl-2026-in-utrecht",
+          title: 'Attending STS NL 2026 in Utrecht',
           description: "",
-          section: "News",},{
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-04-14-sts-nl-2026/";
+            },},{
         id: 'social-bluesky',
         title: 'Bluesky',
         section: 'Socials',
