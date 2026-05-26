@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
-        },{id: "post-trapped-in-the-iron-cage-the-one-dimensional-researcher",
+        },{id: "post-can-we-really-just-quot-keep-calm-and-carry-on-quot-sts-nl-2026",
+        
+          title: 'Can We Really Just &quot;Keep Calm and Carry On&quot;? (STS NL 2026) <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "When the noise of the world gets too loud, can researchers really just &quot;keep calm and carry on&quot;? Thoughts from STS-NL on academic responsibility, personal reflection on my uncomfortable preference sitting on the quiet office chair, and finding my path as an early-stage PhD.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://tinkering-research.pikapod.net/sts-nl-2026-keep-calm-carry-on/", "_blank");
+          
+        },
+      },{id: "post-trapped-in-the-iron-cage-the-one-dimensional-researcher",
         
           title: 'Trapped in the Iron Cage: The One-Dimensional Researcher <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
@@ -63,6 +74,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-04-14-sts-nl-2026/";
+            },},{id: "news-attended-wcri-2026-in-vancouver",
+          title: 'Attended WCRI 2026 in Vancouver',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-05-06-wcri-2026-vancouver/";
             },},{
         id: 'social-bluesky',
         title: 'Bluesky',
