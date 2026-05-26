@@ -37,11 +37,27 @@ module ExternalPosts
     def process_entries(site, src, entries)
       entries.each do |e|
         puts "...fetching #{e.url}"
+        
+        # Extract thumbnail URL from the entry
+        thumbnail_url = nil
+        if e.respond_to?(:image) && e.image
+          thumbnail_url = e.image
+        elsif e.respond_to?(:media_thumbnail) && e.media_thumbnail
+          thumbnail_url = e.media_thumbnail
+        end
+        
+        if thumbnail_url.nil? && e.content
+          doc_html = Nokogiri::HTML(e.content)
+          img = doc_html.at_css('img')
+          thumbnail_url = img['src'] if img && img['src']
+        end
+
         create_document(site, src['name'], e.url, {
           title: e.title,
           content: e.content,
           summary: e.summary,
-          published: e.published
+          published: e.published,
+          thumbnail: thumbnail_url
         }, src)
       end
     end
@@ -67,6 +83,7 @@ module ExternalPosts
       doc.data['description'] = content[:summary]
       doc.data['date'] = content[:published]
       doc.data['redirect'] = url
+      doc.data['thumbnail'] = content[:thumbnail] if content[:thumbnail]
       
       # Apply default categories and tags from source configuration
       if src['categories'] && src['categories'].is_a?(Array) && !src['categories'].empty?
@@ -108,6 +125,10 @@ module ExternalPosts
       description = parsed_html.at('head meta[name="description"]')&.attr('content')
       description ||= parsed_html.at('head meta[name="og:description"]')&.attr('content')
       description ||= parsed_html.at('head meta[property="og:description"]')&.attr('content')
+      
+      # Extract og:image or twitter:image as a thumbnail
+      thumbnail = parsed_html.at('head meta[property="og:image"]')&.attr('content')
+      thumbnail ||= parsed_html.at('head meta[name="twitter:image"]')&.attr('content')
 
       body_content = parsed_html.search('p').map { |e| e.text }
       body_content = body_content.join() || ''
@@ -115,7 +136,8 @@ module ExternalPosts
       {
         title: title,
         content: body_content,
-        summary: description
+        summary: description,
+        thumbnail: thumbnail
         # Note: The published date is now added in the fetch_from_urls method.
       }
     end
