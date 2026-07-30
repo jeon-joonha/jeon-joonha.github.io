@@ -25,6 +25,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Joonha Jeon *(J as in John, not "Y"; 전준하 in Korean)* is a PhD candidate at the Centre for Science and Technology Studies (CWTS), Leiden University. His research interests lie at the intersection of science and technology studies (STS) and valuation studies, particularly examining scholarly communication within research systems.
+Joonha Jeon _(J as in John, not "Y"; 전준하 in Korean)_ is a PhD candidate at the Centre for Science and Technology Studies (CWTS), Leiden University. His research interests lie at the intersection of science and technology studies (STS) and valuation studies, particularly examining scholarly communication within research systems.
 
 Before joining CWTS, he worked in South Korea’s IT industry focusing on data analytics and AI, and holds a Master’s degree from Graduate School of Science and Technology Policy (STP) at KAIST. He has also been actively bridging academic research and public discourse through writing and engagement on topics ranging from research culture and policy to AI ethics.
