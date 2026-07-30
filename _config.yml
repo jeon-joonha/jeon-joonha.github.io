@@ -4,7 +4,7 @@
 
 title: Joonha Jeon # the website title (if blank, full name will be used instead)
 first_name: Joonha
-middle_name: 
+middle_name:
 last_name: Jeon
 contact_note: >
   Email: j.jeon@cwts.leidenuniv.nl
@@ -324,7 +324,7 @@ filtered_bibtex_keywords:
     slides,
     supp,
     video,
-    website
+    website,
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
