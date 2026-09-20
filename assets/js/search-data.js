@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
-        },{id: "post-can-we-really-just-quot-keep-calm-and-carry-on-quot-sts-nl-2026",
+        },{id: "post-my-dumbest-moment-of-2026-and-my-personal-tribute-to-michel-callon",
+        
+          title: 'My Dumbest Moment of 2026 (+ and my personal tribute to Michel Callon)... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "I was supposed to be in Paris this Tuesday, but ended up just reading his book in Leiden.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://tinkering-research.pikapod.net/my-dumbest-moment-of-2026-2026-09-20/", "_blank");
+          
+        },
+      },{id: "post-can-we-really-just-quot-keep-calm-and-carry-on-quot-sts-nl-2026",
         
           title: 'Can We Really Just &quot;Keep Calm and Carry On&quot;? (STS NL 2026) <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
