@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
-        },{id: "post-my-dumbest-moment-of-2026-and-my-personal-tribute-to-michel-callon",
+        },{id: "post-though-i-missed-callon-but-met-him-anyway",
+        
+          title: 'Though I missed Callon, but met him anyway <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "My week of reading Callon led me to make many connections with questions I had been thinking about regarding paper mills, and even broader academic publishing.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://tinkering-research.pikapod.net/callon-reading-week-2026-10-05/", "_blank");
+          
+        },
+      },{id: "post-my-dumbest-moment-of-2026-and-my-personal-tribute-to-michel-callon",
         
           title: 'My Dumbest Moment of 2026 (+ and my personal tribute to Michel Callon)... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
