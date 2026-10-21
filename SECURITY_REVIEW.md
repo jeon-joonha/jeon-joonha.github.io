@@ -36,7 +36,7 @@ A comprehensive security audit and review was conducted for the repository. The 
 
 - **Ruby Gems (`Gemfile.lock`)**:
   - `bundler-audit` check identified vulnerability advisories in `nokogiri` (version 1.19.0), including regular expression backtracking (CVE-2026-79770) and memory leaks (CVE-2026-79771).
-  - *Mitigation*: Update `nokogiri` to version `>= 1.19.4` by executing `bundle update nokogiri`.
+  - _Mitigation_: Update `nokogiri` to version `>= 1.19.4` by executing `bundle update nokogiri`.
 - **Python Packages (`requirements.txt`)**:
   - `pip-audit -r requirements.txt` passed with 0 known vulnerabilities.
 - **Node.js Packages (`package.json`)**:
